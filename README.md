@@ -2,9 +2,9 @@
 
 [![Build Status](https://www.travis-ci.org/gvwarrior/data-preservation.svg?branch=master)](https://www.travis-ci.org/gvwarrior/data-preservation)
 
-# data-preservation
+# Data Preservation - IOS Application
 
-Task Lists
+## Task Lists
 - [x] Create new IOS Application with Unit Test and UI Tests enabled
 - [x] Add continuous integration and build state indicator to README
 - [ ] Select DB to persist data
