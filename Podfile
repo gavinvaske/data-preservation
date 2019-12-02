@@ -1,5 +1,7 @@
- use_frameworks!
+use_frameworks!
 
- target 'data-preservation' do
+target 'data-preservation' do
 
- end
+ pod 'Sourcery'
+
+end

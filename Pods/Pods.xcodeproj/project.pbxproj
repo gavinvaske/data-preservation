@@ -6,11 +6,33 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		4D8229B0397AE8C2F7C11B3F9EFC9362 /* Sourcery */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8C0FA8664472892B08200EA125A01D5C /* Build configuration list for PBXAggregateTarget "Sourcery" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Sourcery;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		51EEC69C71959964CEDEF4EB77025CED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		8A0D9D4587902E66D8A7C6D5D7BFC76E /* Pods-data-preservation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E1E70ED8FCB5EDA8D4B9AC9F021FE29 /* Pods-data-preservation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAD7DE4392D32399580EC650244DF38F /* Pods-data-preservation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 808D8ED03D846FB34FE4A402B5035D6B /* Pods-data-preservation-dummy.m */; };
+		7F03DB0C4B1BC767D8897CADEA9444A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BE2391CD754FB7B80B016F49A1A62045 /* Pods-data-preservation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E1E70ED8FCB5EDA8D4B9AC9F021FE29 /* Pods-data-preservation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0569A762921EC6D6EA35BF53D042F5D /* Pods-data-preservation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 808D8ED03D846FB34FE4A402B5035D6B /* Pods-data-preservation-dummy.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DD106C2CB233C6A8B3232C5F419F070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D8229B0397AE8C2F7C11B3F9EFC9362;
+			remoteInfo = Sourcery;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0E1E70ED8FCB5EDA8D4B9AC9F021FE29 /* Pods-data-preservation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-data-preservation-umbrella.h"; sourceTree = "<group>"; };
@@ -19,6 +41,7 @@
 		288E6015A3B64C0E6DF6A19564955205 /* Pods-data-preservation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-data-preservation.debug.xcconfig"; sourceTree = "<group>"; };
 		2A7762DA5A5FE683242E835329203BDB /* Pods-data-preservation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-data-preservation.release.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5EE13E988C37059475F3B73A973E0B0C /* Sourcery.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sourcery.xcconfig; sourceTree = "<group>"; };
 		808D8ED03D846FB34FE4A402B5035D6B /* Pods-data-preservation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-data-preservation-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B6F346387DFD4CD1C35C7562681011B1 /* Pods-data-preservation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-data-preservation-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -27,23 +50,49 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B639815B3B264FF16AE7B01850815173 /* Frameworks */ = {
+		F831D12702CD6495F4B18ED1C6F5DB85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51EEC69C71959964CEDEF4EB77025CED /* Foundation.framework in Frameworks */,
+				7F03DB0C4B1BC767D8897CADEA9444A2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57285C378F908414F79B873E109341A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				797D3D0B549C3105F1C5E7DE8F1718A5 /* Sourcery */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		797D3D0B549C3105F1C5E7DE8F1718A5 /* Sourcery */ = {
+			isa = PBXGroup;
+			children = (
+				9DBCB5680ECBB5A5FF19D765FF4BA390 /* Support Files */,
+			);
+			name = Sourcery;
+			path = Sourcery;
+			sourceTree = "<group>";
+		};
 		7EB3E7A866EADE52E1C4AD9F17B1EE81 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				AAFD2AF4C71D78A946CE1D5FC22808F5 /* Pods-data-preservation */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9DBCB5680ECBB5A5FF19D765FF4BA390 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EE13E988C37059475F3B73A973E0B0C /* Sourcery.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Sourcery";
 			sourceTree = "<group>";
 		};
 		AAFD2AF4C71D78A946CE1D5FC22808F5 /* Pods-data-preservation */ = {
@@ -75,6 +124,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				57285C378F908414F79B873E109341A6 /* Pods */,
 				F3B684531D7BEA29AAC16DA099B60A8A /* Products */,
 				7EB3E7A866EADE52E1C4AD9F17B1EE81 /* Targets Support Files */,
 			);
@@ -99,11 +149,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8FC851D543EEF4A655DB177DA3BB9FFD /* Headers */ = {
+		82159D2E8FAB9E88D0CE37A9E1CEF4F1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A0D9D4587902E66D8A7C6D5D7BFC76E /* Pods-data-preservation-umbrella.h in Headers */,
+				BE2391CD754FB7B80B016F49A1A62045 /* Pods-data-preservation-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,16 +162,17 @@
 /* Begin PBXNativeTarget section */
 		BCDCE6B95A76D7AA04E5DB279528CB17 /* Pods-data-preservation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60FA00CE36C244ADD0FC15E4363FCE0B /* Build configuration list for PBXNativeTarget "Pods-data-preservation" */;
+			buildConfigurationList = 6EDF1994847523D6B4BBEE615EBC8FB2 /* Build configuration list for PBXNativeTarget "Pods-data-preservation" */;
 			buildPhases = (
-				8FC851D543EEF4A655DB177DA3BB9FFD /* Headers */,
-				7CE036D1DEC55A85B23F8F80DC5D006D /* Sources */,
-				B639815B3B264FF16AE7B01850815173 /* Frameworks */,
-				832230C522170625B450179E794B98E9 /* Resources */,
+				82159D2E8FAB9E88D0CE37A9E1CEF4F1 /* Headers */,
+				697A0D31E247C3564287E9BFEFFB67DD /* Sources */,
+				F831D12702CD6495F4B18ED1C6F5DB85 /* Frameworks */,
+				43F604FCF9031F45DE3464EC32E0C9FF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CA033120B02E549936520FB77B60C602 /* PBXTargetDependency */,
 			);
 			name = "Pods-data-preservation";
 			productName = "Pods-data-preservation";
@@ -150,12 +201,13 @@
 			projectRoot = "";
 			targets = (
 				BCDCE6B95A76D7AA04E5DB279528CB17 /* Pods-data-preservation */,
+				4D8229B0397AE8C2F7C11B3F9EFC9362 /* Sourcery */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		832230C522170625B450179E794B98E9 /* Resources */ = {
+		43F604FCF9031F45DE3464EC32E0C9FF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -165,18 +217,43 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7CE036D1DEC55A85B23F8F80DC5D006D /* Sources */ = {
+		697A0D31E247C3564287E9BFEFFB67DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAD7DE4392D32399580EC650244DF38F /* Pods-data-preservation-dummy.m in Sources */,
+				C0569A762921EC6D6EA35BF53D042F5D /* Pods-data-preservation-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		CA033120B02E549936520FB77B60C602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Sourcery;
+			target = 4D8229B0397AE8C2F7C11B3F9EFC9362 /* Sourcery */;
+			targetProxy = 1DD106C2CB233C6A8B3232C5F419F070 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		4E13EF275E15CF9418445D2AD2EB8AF5 /* Release */ = {
+		4678F41881803F84ED4742191124A054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE13E988C37059475F3B73A973E0B0C /* Sourcery.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AA58CFF6776BC6D8C0CDF6866A95048 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2A7762DA5A5FE683242E835329203BDB /* Pods-data-preservation.release.xcconfig */;
 			buildSettings = {
@@ -279,7 +356,7 @@
 			};
 			name = Debug;
 		};
-		B841E2C5629298C35025367987BDE929 /* Debug */ = {
+		AF9DBDA286107FE6C100D9B651E62CA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 288E6015A3B64C0E6DF6A19564955205 /* Pods-data-preservation.debug.xcconfig */;
 			buildSettings = {
@@ -316,6 +393,23 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		CBD7DED877262491D3CE3B55C5F73683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE13E988C37059475F3B73A973E0B0C /* Sourcery.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -389,11 +483,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60FA00CE36C244ADD0FC15E4363FCE0B /* Build configuration list for PBXNativeTarget "Pods-data-preservation" */ = {
+		6EDF1994847523D6B4BBEE615EBC8FB2 /* Build configuration list for PBXNativeTarget "Pods-data-preservation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B841E2C5629298C35025367987BDE929 /* Debug */,
-				4E13EF275E15CF9418445D2AD2EB8AF5 /* Release */,
+				AF9DBDA286107FE6C100D9B651E62CA8 /* Debug */,
+				7AA58CFF6776BC6D8C0CDF6866A95048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0FA8664472892B08200EA125A01D5C /* Build configuration list for PBXAggregateTarget "Sourcery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4678F41881803F84ED4742191124A054 /* Debug */,
+				CBD7DED877262491D3CE3B55C5F73683 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
