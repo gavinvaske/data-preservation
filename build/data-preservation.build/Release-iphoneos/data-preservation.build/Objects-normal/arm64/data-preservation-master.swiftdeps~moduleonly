@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "6936ab3f3fa3833628c6c3bc003fc430"
+build_time: [1575253066, 32330000]
+inputs:
+  "/Users/gvaske/Desktop/github_projects/data-preservation/data-preservation/AppDelegate.swift": [9223372036, 854775807]
+  "/Users/gvaske/Desktop/github_projects/data-preservation/data-preservation/ContentView.swift": [9223372036, 854775807]
+  "/Users/gvaske/Desktop/github_projects/data-preservation/data-preservation/SceneDelegate.swift": [9223372036, 854775807]
